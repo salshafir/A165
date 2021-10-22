@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(img/bakery.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper h2 {
+    font: 50px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .signup {
+    background-color: #9b4923;
+  }
+ 
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: whitesmoke;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+
+  .header-right img {
+    float: left;
+    height: 40px;
+    width: 40px;
+    padding: 6px;
+    margin: 11px;
+    transition: all 0.5s;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: rgb(31, 7, 43);
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    text-align: center;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .menu-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: bolder;
+  }
+  
+  .menu {
+    float: left;
+    width: 25%;
+  }
+  
+  .menu-icon {
+    position: relative;
+  }
+  
+  .menu-name {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #23092e;
+  }
+
+  .add img {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+
+  .order-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .order {
+    padding: 15px 40px;
+    background-color: #ca9b5d;
+    cursor: pointer;
+    box-shadow: 0 7px #79451a;
+  }
+  
+  .order:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
